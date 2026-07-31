@@ -1,3 +1,5 @@
+"use client";
+
 import Link from "next/link";
 import { Calculator, Home, MapPin, Bot, ArrowRight, DollarSign, TrendingUp, Shield } from "lucide-react";
 
