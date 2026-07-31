@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "HomeCost - Smart Home Cost Estimator & House Finder",
+  title: "HomeValue - Smart Home Cost Calculator & House Finder",
   description: "Estimate home buying costs, find properties, and make informed decisions with AI-powered insights.",
 };
 

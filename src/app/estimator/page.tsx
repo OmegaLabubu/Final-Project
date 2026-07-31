@@ -43,7 +43,7 @@ export default function EstimatorPage() {
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <div className="text-center mb-12">
         <h1 className="text-3xl md:text-4xl font-bold text-zinc-900 dark:text-zinc-100 mb-4">
-          AI Cost Estimator
+          AI Cost Calculator
         </h1>
         <p className="text-lg text-zinc-600 dark:text-zinc-400 max-w-2xl mx-auto">
           Calculate the true cost of homeownership with AI-powered analysis
@@ -89,7 +89,7 @@ export default function EstimatorPage() {
                   <button
                     key={pct}
                     onClick={() => setForm(prev => ({ ...prev, downPayment: Math.round(prev.homePrice * pct / 100) }))}
-                    className="text-xs px-3 py-1 bg-zinc-100 dark:bg-zinc-800 rounded-md hover:bg-zinc-200 dark:hover:bg-zinc-700 text-zinc-600 dark:text-zinc-400"
+                    className="text-xs px-3 py-1 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors"
                   >
                     {pct}%
                   </button>
@@ -172,7 +172,7 @@ export default function EstimatorPage() {
               className="w-full bg-blue-600 text-white py-3 rounded-lg font-semibold hover:bg-blue-700 disabled:opacity-50 transition-colors flex items-center justify-center gap-2"
             >
               {loading ? <Loader2 className="h-4 w-4 animate-spin" /> : <Calculator className="h-4 w-4" />}
-              {loading ? "Calculating..." : "Estimate Costs"}
+              {loading ? "Calculating..." : "Calculate Costs"}
             </button>
           </div>
         </div>
@@ -236,7 +236,7 @@ export default function EstimatorPage() {
               <Calculator className="h-16 w-16 text-zinc-300 dark:text-zinc-600 mb-4" />
               <h3 className="font-bold text-xl text-zinc-900 dark:text-zinc-100 mb-2">Ready to Calculate</h3>
               <p className="text-zinc-600 dark:text-zinc-400">
-                Fill in the property details and click "Estimate Costs" to see your breakdown
+                Fill in the property details and click "Calculate Costs" to see your breakdown
               </p>
             </div>
           )}

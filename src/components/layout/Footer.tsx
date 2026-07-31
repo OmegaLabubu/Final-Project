@@ -9,7 +9,7 @@ export default function Footer() {
           <div className="col-span-1 md:col-span-2">
             <Link href="/" className="flex items-center gap-2 mb-4">
               <Home className="h-6 w-6 text-blue-600" />
-              <span className="font-bold text-xl">HomeCost</span>
+              <span className="font-bold text-xl">HomeValue</span>
             </Link>
             <p className="text-zinc-600 dark:text-zinc-400 max-w-md">
               Your complete guide to home buying costs. Estimate expenses, find properties, and make informed decisions with AI-powered insights.
@@ -21,7 +21,7 @@ export default function Footer() {
             <ul className="space-y-2">
               <li>
                 <Link href="/estimator" className="text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors">
-                  Cost Estimator
+                  Cost Calculator
                 </Link>
               </li>
               <li>
@@ -56,7 +56,7 @@ export default function Footer() {
 
         <div className="mt-12 pt-8 border-t border-zinc-200 dark:border-zinc-800">
           <p className="text-center text-zinc-600 dark:text-zinc-400 text-sm">
-            &copy; {new Date().getFullYear()} HomeCost. All rights reserved.
+            &copy; {new Date().getFullYear()} HomeValue. All rights reserved.
           </p>
         </div>
       </div>

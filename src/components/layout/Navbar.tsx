@@ -36,17 +36,17 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex items-center">
-            <Link href="/" className="flex items-center gap-2">
+            <Link href="/" className="flex items-center gap-2 border border-zinc-300 dark:border-zinc-700 px-3 py-1.5 rounded-lg hover:border-zinc-400 dark:hover:border-zinc-600 transition-colors">
               <Home className="h-6 w-6 text-blue-600" />
-              <span className="font-bold text-xl">HomeCost</span>
+              <span className="font-bold text-xl">HomeValue</span>
             </Link>
           </div>
 
           <div className="hidden md:flex items-center gap-8">
-            <Link href="/estimator" className="text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-100 transition-colors">
-              Cost Estimator
+            <Link href="/estimator" className="bg-white dark:bg-zinc-900 border border-zinc-300 dark:border-zinc-700 px-4 py-2 rounded-lg hover:border-zinc-400 dark:hover:border-zinc-600 text-zinc-900 dark:text-zinc-100 transition-colors">
+              Cost Calculator
             </Link>
-            <Link href="/houses" className="text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-100 transition-colors">
+            <Link href="/houses" className="bg-white dark:bg-zinc-900 border border-zinc-300 dark:border-zinc-700 px-4 py-2 rounded-lg hover:border-zinc-400 dark:hover:border-zinc-600 text-zinc-900 dark:text-zinc-100 transition-colors">
               House Finder
             </Link>
             {user ? (
@@ -78,7 +78,7 @@ export default function Navbar() {
         <div className="md:hidden bg-white dark:bg-zinc-950 border-t border-zinc-200 dark:border-zinc-800">
           <div className="px-4 py-4 space-y-3">
             <Link href="/estimator" className="block text-zinc-600 dark:text-zinc-400" onClick={() => setIsOpen(false)}>
-              Cost Estimator
+              Cost Calculator
             </Link>
             <Link href="/houses" className="block text-zinc-600 dark:text-zinc-400" onClick={() => setIsOpen(false)}>
               House Finder

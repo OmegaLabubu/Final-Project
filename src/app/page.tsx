@@ -13,7 +13,7 @@ export default function HomePage() {
               Before You Buy
             </h1>
             <p className="text-lg md:text-xl text-zinc-600 dark:text-zinc-400 mb-8 max-w-2xl mx-auto">
-              AI-powered cost estimator, real-time property search, and expert guidance — everything you need to make smart home buying decisions.
+              AI-powered cost calculator, real-time property search, and expert guidance — everything you need to make smart home buying decisions.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
@@ -21,7 +21,7 @@ export default function HomePage() {
                 className="inline-flex items-center justify-center gap-2 bg-blue-600 text-white px-8 py-4 rounded-xl font-semibold hover:bg-blue-700 transition-all hover:scale-105"
               >
                 <Calculator className="h-5 w-5" />
-                Estimate Costs
+                Calculate Costs
               </Link>
               <Link
                 href="/houses"
@@ -51,7 +51,7 @@ export default function HomePage() {
               <div className="w-12 h-12 bg-blue-100 dark:bg-blue-900 rounded-xl flex items-center justify-center mb-4">
                 <Calculator className="h-6 w-6 text-blue-600" />
               </div>
-              <h3 className="font-bold text-lg text-zinc-900 dark:text-zinc-100 mb-2">Cost Estimator</h3>
+              <h3 className="font-bold text-lg text-zinc-900 dark:text-zinc-100 mb-2">Cost Calculator</h3>
               <p className="text-zinc-600 dark:text-zinc-400 text-sm">
                 Calculate mortgage, taxes, insurance, and total monthly costs with AI-powered analysis.
               </p>

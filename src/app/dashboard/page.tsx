@@ -66,7 +66,7 @@ export default function DashboardPage() {
             </div>
             <button
               onClick={handleSignOut}
-              className="mt-6 w-full flex items-center justify-center gap-2 bg-zinc-100 dark:bg-zinc-800 text-zinc-900 dark:text-zinc-100 py-2.5 rounded-lg font-medium hover:bg-zinc-200 dark:hover:bg-zinc-700 transition-colors"
+              className="mt-6 w-full flex items-center justify-center gap-2 bg-blue-600 text-white py-2.5 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
             >
               <LogOut className="h-4 w-4" />
               Sign Out
@@ -85,7 +85,7 @@ export default function DashboardPage() {
               <div className="w-12 h-12 bg-blue-100 dark:bg-blue-900 rounded-xl flex items-center justify-center mb-4">
                 <Calculator className="h-6 w-6 text-blue-600" />
               </div>
-              <h3 className="font-bold text-lg text-zinc-900 dark:text-zinc-100 mb-2">Cost Estimator</h3>
+              <h3 className="font-bold text-lg text-zinc-900 dark:text-zinc-100 mb-2">Cost Calculator</h3>
               <p className="text-sm text-zinc-600 dark:text-zinc-400">
                 Calculate mortgage, taxes, and total monthly costs with AI analysis.
               </p>

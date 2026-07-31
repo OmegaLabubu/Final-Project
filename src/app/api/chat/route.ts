@@ -16,7 +16,7 @@ export async function POST(req: Request) {
 - Tips for finding the right home
 - Market trends and neighborhood considerations
 
-Be concise, friendly, and practical. Always provide actionable advice. If asked about specific properties or real-time data, let the user know they should use the House Finder tool.`;
+Be concise, friendly, and practical. Always provide actionable advice. When discussing costs, reference as of 2026 costs. If asked about specific properties or real-time data, let the user know they should use the House Finder tool.`;
 
     const completion = await openai.chat.completions.create({
       model: "gpt-4o-mini",

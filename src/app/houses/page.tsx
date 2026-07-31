@@ -60,7 +60,6 @@ export default function HousesPage() {
   }, [location, filters]);
 
   useEffect(() => {
-    searchProperties();
   }, []);
 
   const handleMarkerClick = (index: number) => {
@@ -104,7 +103,7 @@ export default function HousesPage() {
           </div>
           <button
             onClick={() => setShowFilters(!showFilters)}
-            className="flex items-center gap-2 px-4 py-2.5 bg-zinc-100 dark:bg-zinc-800 rounded-lg hover:bg-zinc-200 dark:hover:bg-zinc-700 text-zinc-600 dark:text-zinc-400"
+            className="flex items-center gap-2 px-4 py-2.5 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-colors"
           >
             <SlidersHorizontal className="h-4 w-4" />
             Filters

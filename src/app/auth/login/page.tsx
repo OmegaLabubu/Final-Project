@@ -36,7 +36,7 @@ export default function LoginPage() {
         <div className="text-center mb-8">
           <Link href="/" className="inline-flex items-center gap-2 mb-4">
             <Home className="h-8 w-8 text-blue-600" />
-            <span className="font-bold text-2xl">HomeCost</span>
+            <span className="font-bold text-2xl">HomeValue</span>
           </Link>
           <h1 className="text-2xl font-bold text-zinc-900 dark:text-zinc-100">Welcome back</h1>
           <p className="text-zinc-600 dark:text-zinc-400 mt-2">Sign in to your account</p>
